@@ -1,0 +1,9 @@
+<mujoco model="shadow hand with cube">
+  <include file="scene_right.xml"/>
+  <worldbody>
+    <body name="cube" pos="0.3 0 0.1">
+      <freejoint/>
+      <geom type="box" size="0.025 0.025 0.025" rgba="1 0 0 1" mass="0.05"/>
+    </body>
+  </worldbody>
+</mujoco>
